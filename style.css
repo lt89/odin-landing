@@ -7,12 +7,13 @@
 .logo {
     display: flex;
     font-size: 24px;
-    font-weight:900;
-    color: white;
+    font-weight:800;
+    color: #F9FAF8;
     padding-left: 3px;
     margin-left: 10px;
 
 }
+
 
 .header {
     display:flex;
@@ -21,6 +22,12 @@
     margin: none;
     justify-content: space-between;
     padding-right: 10px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: 900;
 }
 
 ul {
@@ -35,4 +42,75 @@ ul {
 a {
     color: white;
     text-decoration: none;
+}
+
+.quote {
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+
+
+.section-one {
+    background-color: #1F2937;
+}
+
+.one {
+    color: #F9FAF8;
+    font-style: bolder; 
+    font-size: 48px;
+}
+
+.description {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.section-two {
+    background-color: white;
+}
+
+.two {
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+}
+
+.section-four {
+    display: flex;
+    background-color: white;
+    justify-content: center; 
+    align-items: center;
+}
+
+.author {
+    font-weight: 600;
+}
+
+.box-four {
+    background-color: #3882F6;
+}
+
+.button-two {
+    border-color: white;
+}
+
+.four {
+    color:#F9FAF8;
+    font-size: 18px;
+}
+
+.four-subtext {
+    color: #E5E7EB;
+}
+
+.footer {
+    background-color: #1F2937;
 }
